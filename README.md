@@ -4,8 +4,10 @@
 Smart Traffic Management System adalah sistem berbasis AI yang mengoptimalkan durasi lampu lalu lintas secara real-time berdasarkan kepadatan kendaraan. Sistem ini bertujuan untuk mengurangi kemacetan, menghemat bahan bakar, dan meningkatkan efisiensi transportasi di perkotaan.
 
 ## Kelompok `Tetua Pancasila`
-Ketua Kelompok:  Alex Cinatra Hutasoit 
+Ketua Kelompok:  Alex Cinatra Hutasoit -22/505820/TK/55377
+
 Anggota 1: 
+
 Anggota 2: 
 
 ## ✨ Fitur Utama
