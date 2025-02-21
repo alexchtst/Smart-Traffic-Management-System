@@ -1,0 +1,4 @@
+# _config.yaml
+title: "Smart Traffic Management System"
+description: "Sistem berbasis AI yang mengoptimalkan durasi lampu lalu lintas secara real-time berdasarkan kepadatan kendaraan untuk mengurangi kemacetan dan meningkatkan efisiensi transportasi di perkotaan."
+theme: "jekyll-theme-cayman"
