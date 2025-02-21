@@ -21,6 +21,11 @@ Anggota 2:
 
 - 📌 Dashboard Manajemen – UI interaktif untuk memantau dan mengontrol lalu lintas.
 
+## 🖼️ Lofi Design
+
+![image](lofi-cover.png)
+
+
 ## 🚀 Instalation Guides
 
 `clone repo`
