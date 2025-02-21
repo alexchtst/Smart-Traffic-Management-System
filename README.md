@@ -5,7 +5,9 @@ Smart Traffic Management System adalah sistem berbasis AI yang mengoptimalkan du
 
 ## Kelompok `Tetua Pancasila`
 Ketua Kelompok:  Alex Cinatra Hutasoit 
-Anggota 1: 
+
+Anggota 1: Muhammad Rafli Ramadani
+
 Anggota 2: 
 
 ## ✨ Fitur Utama
