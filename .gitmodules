@@ -1,0 +1,3 @@
+[submodule "Smart-Traffic-Management-Frontend"]
+	path = Smart-Traffic-Management-Frontend
+	url = https://github.com/alexchtst-01/Smart-Traffic-Management-Fronteend.git
