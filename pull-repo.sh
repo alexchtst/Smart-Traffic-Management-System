@@ -1,26 +1,32 @@
 #!/bin/bash
 
 pullService(){
+    dir="$1"
+    branch="$2"
 
-    echo "into directory $1 ..."
-    echo "cd $1"
+    echo "Masuk ke directory $dir ..."
+    cd "$dir" || { echo "Gagal masuk ke $dir"; exit 1; }
 
-    echo "checkout repo into $2 ..."
-    echo "git checkout $2"
+    echo "Checkout ke branch $branch ..."
+    git checkout "$branch"
 
-    echo "pull from repo $1 in branch $2 ..."
-    echo "git pull"
+    echo "Pull dari branch $branch ..."
+    git pull
+
+    cd - > /dev/null  # Kembali ke folder awal (opsional)
 }
 
-Fe="git@github.com:alexchtst-01/Smart-Traffic-Management-Fronteend.git"
+# Path lokal direktori masing-masing project
+FeDir="Smart-Traffic-Management-Frontend"
+BeDir="Smart-Traffic-Management-Backend"
+AiDir="Smart-Traffic-Management-AI"
+
+# Branch masing-masing project
 FeBranch="main"
-
-Be="git@github.com:alexchtst-01/Smart-Traffic-Management-Backend.git"
 BeBranch="main"
-
-Ai="git@github.com:alexchtst-01/Smart-Traffic-Management-AI.git"
 AiBranch="main"
 
-pullService $Fe, $FeBranch
-pullService $Be, $BeBranch
-pullService $Ai, $AiBranch
+# Panggil fungsi
+pullService "$FeDir" "$FeBranch"
+pullService "$BeDir" "$BeBranch"
+pullService "$AiDir" "$AiBranch"
