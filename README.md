@@ -36,3 +36,10 @@ Anggota 2: Muhamad Farrel Adrian - 22/505897/TK/55394
     
     cd Smart-Traffic-Management-System
 
+`submodule init`
+    
+    git submodule update --init --recursive
+
+`pull all repo`
+
+    ./pull-repo.sh
