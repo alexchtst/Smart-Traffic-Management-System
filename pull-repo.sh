@@ -19,11 +19,14 @@ pullService(){
 FeDir="Smart-Traffic-Management-Frontend"
 BeDir="Smart-Traffic-Management-Backend"
 AiDir="Smart-Traffic-Management-AI"
+SimDir="Smart-Traffic-Management-DataSimulator"
 
 FeBranch="main"
 BeBranch="main"
 AiBranch="main"
+SimBranch="main"
 
 pullService "$FeDir" "$FeBranch"
 pullService "$BeDir" "$BeBranch"
 pullService "$AiDir" "$AiBranch"
+pullService "$SimDir" "$SimBranch"

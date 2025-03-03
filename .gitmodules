@@ -7,3 +7,6 @@
 [submodule "Smart-Traffic-Management-AI"]
 	path = Smart-Traffic-Management-AI
 	url = https://github.com/alexchtst-01/Smart-Traffic-Management-AI.git
+[submodule "Smart-Traffic-Management-DataSimulator"]
+	path = Smart-Traffic-Management-DataSimulator
+	url = git@github.com:alexchtst-01/Smart-Traffic-Management-DataSimulator.git
