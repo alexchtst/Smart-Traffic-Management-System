@@ -43,3 +43,7 @@ Anggota 2: Muhamad Farrel Adrian - 22/505897/TK/55394
 `pull all repo`
 
     ./pull-repo.sh
+
+`run all service locally`
+
+    ./sunservice.sh
