@@ -30,7 +30,7 @@ Anggota 2: Muhamad Farrel Adrian - 22/505897/TK/55394
 
 `clone repo`
 
-    git clone https://github.com/alexchtst-01/Smart-Traffic-Management-System.git
+    git clone https://github.com/alexchtst/Smart-Traffic-Management-System.git
 
 `get in the directory`
     
