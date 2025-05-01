@@ -12,9 +12,15 @@ cd "$BeDir" || { echo "❌ Direktori backend tidak ditemukan!"; exit 1; }
 if [ -d ".venv" ]; then
     echo "✅ Virtual environment ditemukan."
     source .venv/bin/activate || source .venv/Scripts/activate || { echo "❌ Gagal mengaktifkan virtual environment"; exit 1; }
+    echo 'install all dependcies'
+    pip install -r requirements.txt
 else
     echo "⚠️ Virtual environment tidak ditemukan!"
-    exit 1
+    echo "membuat ..."
+    python -m venv .venv
+    source .venv/bin/activate || source .venv/Scripts/activate || { echo "❌ Gagal mengaktifkan virtual environment"; exit 1; }
+    echo 'install all dependcies'
+    pip install -r requirements.txt
 fi
 
 # Jalankan backend

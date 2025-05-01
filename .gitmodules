@@ -1,12 +1,12 @@
 [submodule "Smart-Traffic-Management-Frontend"]
 	path = Smart-Traffic-Management-Frontend
-	url = https://github.com/alexchtst-01/Smart-Traffic-Management-Fronteend.git
+	url = https://github.com/alexchtst/Smart-Traffic-Management-Fronteend.git
 [submodule "Smart-Traffic-Management-Backend"]
 	path = Smart-Traffic-Management-Backend
-	url = https://github.com/alexchtst-01/Smart-Traffic-Management-Backend.git
+	url = https://github.com/alexchtst/Smart-Traffic-Management-Backend.git
 [submodule "Smart-Traffic-Management-AI"]
 	path = Smart-Traffic-Management-AI
-	url = https://github.com/alexchtst-01/Smart-Traffic-Management-AI.git
+	url = https://github.com/alexchtst/Smart-Traffic-Management-AI.git
 [submodule "Smart-Traffic-Management-DataSimulator"]
 	path = Smart-Traffic-Management-DataSimulator
-	url = git@github.com:alexchtst-01/Smart-Traffic-Management-DataSimulator.git
+	url = https://github.com/alexchtst/Smart-Traffic-Management-DataSimulator.git
