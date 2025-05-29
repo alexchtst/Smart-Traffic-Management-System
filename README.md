@@ -47,3 +47,8 @@ Anggota 2: Muhamad Farrel Adrian - 22/505897/TK/55394
 `run all service locally`
 
     ./sunservice.sh
+
+
+## Tambahan
+
+[Link Figma](https://www.figma.com/design/x5icX5w40vM9Yn3Oynx6m9/Tetua-Pancasila?node-id=2313-2&t=KVDQWWhB6grSdRoY-1)
